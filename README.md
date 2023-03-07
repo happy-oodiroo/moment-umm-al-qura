@@ -12,8 +12,6 @@ Hijri is the Islamic lunar calendar used by Muslims to determine the proper days
 
 This plugin adds Hijri calendar support to [momentjs](http://momentjs.com) library.
 
-Calendar conversion is based on the [Umm al-Qura calculations](http://www.ummulqura.org.sa/).
-
 Where to use it?
 ---------------
 
