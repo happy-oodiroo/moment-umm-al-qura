@@ -1,6 +1,6 @@
 {
   "name": "moment-umm-al-qura",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Hijri calendar (Based on official Umm al-Qura calculations \"KSA\") plugin for moment.js.",
   "author": {
     "name": "Saïd SASSI",
@@ -17,6 +17,7 @@
     "convert"
   ],
   "main": "moment-umm-al-qura.js",
+  "types": "moment-umm-al-qura.d.ts",
   "scripts": {
     "test": "grunt test",
     "prepublish": "grunt test"
