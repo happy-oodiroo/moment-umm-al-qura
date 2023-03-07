@@ -1,0 +1,70 @@
+{
+  "name": "moment-umm-al-qura",
+  "version": "1.0.0",
+  "description": "A Hijri calendar (Based on official Umm al-Qura calculations \"KSA\") plugin for moment.js.",
+  "author": {
+    "name": "Saïd SASSI",
+    "email": "sassi_said@live.fr"
+  },
+  "license": "MIT",
+  "keywords": [
+    "arabic",
+    "lunar",
+    "Umm al-Qura",
+    "date",
+    "calendar",
+    "conversion",
+    "convert"
+  ],
+  "main": "moment-umm-al-qura.js",
+  "scripts": {
+    "test": "grunt test",
+    "prepublish": "grunt test"
+  },
+  "homepage": "https://github.com/happy-oodiroo/moment-umm-al-qura",
+  "bugs": {
+    "url": "https://github.com/happy-oodiroo/moment-umm-al-qura/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/happy-oodiroo/moment-umm-al-qura.git"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "chai": "^4.3.7",
+    "grunt": "^1.5.3",
+    "grunt-cli": "^1.4.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-shell": "^4.0.0",
+    "bower": "^1.8.14"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "jshintConfig": {
+    "camelcase": true,
+    "eqeqeq": true,
+    "forin": true,
+    "freeze": true,
+    "immed": true,
+    "indent": 2,
+    "latedef": "nofunc",
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": true,
+    "plusplus": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "asi": true,
+    "eqnull": true,
+    "laxbreak": true,
+    "laxcomma": true,
+    "node": true
+  }
+}

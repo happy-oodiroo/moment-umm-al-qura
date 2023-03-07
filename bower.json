@@ -1,0 +1,29 @@
+{
+  "name": "moment-umm-al-qura",
+  "main": "moment-umm-al-qura.js",
+  "version": "2.1.1",
+  "homepage": "https://github.com/xsoh/moment-umm-al-qura",
+  "authors": [
+    "SAID SASSI <sassi_said@live.fr>"
+  ],
+  "description": "A Hijri calendar (Based on official Umm al-Qura calculations \"KSA\") plugin for moment.js.",
+  "keywords": [
+    "Umm al-Qura",
+    "KSA",
+    "date",
+    "calendar",
+    "conversion",
+    "convert"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "momentjs": "^2.29.4"
+  }
+}
